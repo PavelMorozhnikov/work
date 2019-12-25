@@ -1,0 +1,922 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1798px;
+    height: 100vh;
+    position: relative;
+    background-image: url("BG.png");
+    background-repeat: no-repeat;
+    background-size: 103% 1050px;
+    
+}
+
+.menu {
+    float: right;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 27px 86px 112px 0;
+}
+
+.menu > span {
+    font-family: Dosis;
+    font-style: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #330033;
+    font-weight: bold;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+    
+}
+
+.block {
+    margin-bottom: 90px;
+}
+
+.block img {
+    width: 447px;
+    height: 282px;
+}
+
+.logo > h1 {
+    font-family: Dosis;
+    font-style: normal;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #330033;
+    font-weight: bold;
+    margin-bottom: 74px;
+    letter-spacing: 10px;
+}
+
+.social {
+    width: 50px;
+    height: 195px;
+    background-color: #330033;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    margin-top: 419px;
+    position: fixed;
+}
+
+.button {
+    width: 188px;
+    height: 70px;
+    border: 1px solid #993399;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonMain {
+    width: 164px;
+    height: 50px;
+    background-color: #993399;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.buttonMain:hover {
+    /* color: #ffe;  */
+    background-color: #5488af;
+}
+.buttonMain:active {
+    background-color: #f00;
+}
+
+.buttonMain > p {
+    font-family: Dosis;
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+.buttonMain img {
+    margin-left: 12px;
+}
+
+.boxMain {
+    width: 1798px;
+    height: 222px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -2px;
+}
+
+.box {
+    width: 785px;
+    height: 222px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxContainer {
+    width: 240px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxPink {
+    background-color: #ff3366;
+}
+
+.boxRed {
+    background-color: #cc3333;
+}
+
+.boxOrange {
+    background-color:#ff6600;
+}
+
+.boxTwo {
+    width: 785px;
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxPinkFooter {
+    background-color: #cc3366;
+}
+
+.boxRedFooter {
+    background-color: #993333;
+}
+
+.boxOrangeFooter {
+    background-color:#cc6600;
+}
+
+.boxMainTwo {
+    width: 1798px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 135px;
+}
+
+.boxContainerTwo {
+    width: 240px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContainerTwo > p {
+    font-family: Dosis;
+    font-style: normal;
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.item > h1 {
+    font-family: Dosis;
+    font-style: normal;
+    font-size: 52px;
+    color: #330033;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+.item img {
+     margin-right: 12px;
+}
+
+.cite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Dosis;
+    font-style: normal;
+    font-size: 30px;
+    color: #330033;
+    font-weight: bold;
+    margin-bottom: 15px;
+    
+}
+
+.citeMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.citeJohn {
+    width: 720px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.citeRight {
+    font-family: Dosis;
+    font-style: normal;
+    font-size: 30px;
+    color: #ff3366;
+    font-weight: bold;
+}
+
+.center {
+    width: 1798px;
+    height: 551px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 164px;
+}
+
+.photoBlock1 {
+    width: 254px;
+    height: 439px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+
+.oneBox {
+    width: 254px;
+    height: 205px;
+    background-image: url("Home-page-image-1.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    overflow: hidden;
+}
+
+.twoBox {
+    width: 254px;
+    height: 205px;
+    background-image: url("Homepage-image-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.photoBlock2 {
+    width: 342px;
+    height: 476px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.girls {
+    width: 342px;
+    height: 189px;
+    background-image: url("Homepage.png");
+}
+
+.peopleYears {
+    width: 342px;
+    height: 260px;
+    background-image: url("HomepageYers.png");
+    background-position: center;
+}
+
+.inputButton {
+    width: 466px;
+    height: 551px;
+    background-color: #fff;
+    border: 8px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -moz-border-image: -moz-linear-gradient(left, #cc3333 0%, #ffcc00 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #cc3333 0%, #ffcc00 100%);
+    border-image: linear-gradient(to right, #cc3333 0%, #ffcc00 100%);
+    border-image-slice: 1;
+}
+
+
+.inputButtonControl {
+    width: 300px;
+    height: 253px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.photoBlock3 {
+    width: 305px;
+    height: 473px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 37px;
+}
+
+.treeBox {
+    width: 305px;
+    height: 262px;
+    background-image: url("Homepage-image-13.png");
+    background-position: center;
+}
+
+.fourBox {
+    width: 305px;
+    height: 184px;
+    background-image: url("Home-page-photo.png");
+}
+
+.photoBlock4 {
+    width: 294px;
+    height: 468px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fiveBox {
+    width: 284px;
+    height: 186px;
+    background-image: url("Homepage-image-8.png");
+}
+
+.sixBox {
+    width: 284px;
+    height: 253px;
+    background-image: url("1189.png");
+    background-position: left bottom;
+}
+
+.headerInput {
+    width: 301px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonFace {
+    width: 301px;
+    height: 41px;
+    border: none;
+    background-color: #336699;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Dosis;
+    font-size: 16px;
+    font-style: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.buttonFace:hover {
+    background-color: #5488af;
+}
+.buttonFace:active {
+    background-color: #f00;
+}
+
+.buttonFace img {
+    margin-right: 9px;
+}
+.line {
+    width: 301px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Dosis;
+    font-size: 14px;
+    font-style: bold;
+    text-transform: uppercase;
+    color: #cccccc;
+    margin-bottom: 15px;
+}
+.lineGrey {
+    width: 132px;
+    height: 2px;
+    background-color: #cccccc;
+}
+
+.headerInput > h1 {
+    font-family: Dosis;
+    font-size: 38px;
+    font-style: bold;
+    text-transform: uppercase;
+    color: #330033;
+    
+}
+
+.textInput {
+    width: 300px;
+    height: 41px;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.textInput::placeholder {
+    font-family: Dosis;
+    font-size: 16px;
+    font-style: bold;
+    color: #663366;
+}
+
+.buttonGo {
+    width: 301px;
+    height: 41px;
+    border: none;
+    background-color: #993399;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Dosis;
+    font-size: 16px;
+    font-style: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.buttonGo:hover {
+    background-color: #5488af;
+}
+.buttonGo:active {
+    background-color: #f00;
+}
+
+.bigBlock {
+    width: 1798px;
+    height: 730px;
+    background-image: url("pattern.png");
+    background-color: #993399;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: hidden;
+    margin-bottom: 33px;
+}
+
+.bigBlock img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.halfLeft {
+    width: 644px;
+    height: 730px;
+    position: relative;
+}
+
+.flower {
+    width: 204px;
+    height: 204px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -78px;
+    margin-top: 153px;
+}
+
+.flowerEllips {
+    width: 153px;
+    height: 153px;
+    border-radius: 50%;
+    background-image: url("flower/flower-with-leaves.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffcc00;
+    position: absolute;
+}
+
+.like {
+    width: 134px;
+    height: 134px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 122px;
+    margin-top: 383px;
+}
+
+.likeEllips {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("heart/like.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff3366;
+}
+
+.send {
+    width: 269px;
+    height: 269px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 330px;
+    margin-top: 60px;
+}
+
+.sendEllips {
+    width: 201px;
+    height: 201px;
+    border-radius: 50%;
+    background-image: url("send/Send--Flowers!.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff6600;
+}
+
+.genders {
+    width: 213px;
+    height: 213px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    bottom: 40px;
+}
+
+.gendersEllips {
+    width: 159px;
+    height: 159px;
+    border-radius: 50%;
+    background-image: url("16/16-Genders.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffcc00;
+}
+
+.halfCenter {
+    width: 555px;
+    height: 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.halfRight {
+    width: 602px;
+    height: 730px;
+    overflow: hidden;
+}
+
+.white {
+    width: 462px;
+    height: 462px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.whiteEllips {
+    width: 371px;
+    height: 371px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whiteEllips > h1 {
+    font-family: Dosis;
+    font-size: 60px;
+    font-style: bold;
+    text-transform: uppercase;
+    color: #663366;
+    margin-bottom: 18px;
+}
+
+.whiteEllips > h2 {
+    font-family: Dosis;
+    font-size: 46px;
+    font-style: bold;
+    color: #663366;
+    margin-bottom: 28px;
+}
+
+.whiteEllips button {
+    width: 139px;
+    height: 39px;
+    background-color: #cc3333;
+    border-radius: 5px;
+    border: none;
+    font-family: Dosis;
+    font-size: 16px;
+    font-style: bold;
+    color: #fff;
+}
+
+.lang {
+    width: 203px;
+    height: 203px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 37px;
+    
+}
+
+.langEllips {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    background-image: url("27/27--Languages!.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff3366;
+}
+
+.gift {
+    width: 133px;
+    height: 133px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 446px;
+}
+
+.giftEllips {
+    width: 101px;
+    height: 101px;
+    border-radius: 50%;
+    background-image: url("gift/gift.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff3366;
+}
+
+.chat {
+    width: 174px;
+    height: 174px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 492px;
+    margin-top: 72px;
+}
+
+.chatEllips {
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+    background-image: url("chat/chat-bubbles.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffcc00;
+}
+
+.translation {
+    width: 247px;
+    height: 247px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 262px;
+    margin-top: 333px;
+}
+
+.translationEllips {
+    width: 188px;
+    height: 188px;
+    border-radius: 50%;
+    background-image: url("Chat--Translation/Chat--Translation.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff6600;
+}
+
+.headerFooter {
+    width: 1798px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 34px;
+}
+
+.headerFooter > p {
+    font-family: Dosis;
+    font-size: 16px;
+    font-style: bold;
+    color: #00cc99;
+}
+
+.inputFooter {
+    width: 258px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 5px 0 0 5px;
+    margin-left: 15px; 
+}
+
+.inputFooter::placeholder {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: bold;
+    color: #cccccc;
+    padding-left: 10px;
+    box-sizing: border-box;
+
+}
+
+.buttonFooter {
+    width: 135px;
+    height: 42px;
+    background-color: #00cc99;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    margin-left: -5px;
+}
+.buttonFooter > p {
+    font-family: Dosis;
+    font-size: 16px;
+    font-style: bold;
+    text-transform: uppercase;
+    color: #cccccc;
+}
+.navFooter {
+    width: 1798px;
+    height: 70px;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.navList {
+    width: 827px;
+    height: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navList > span {
+    font-family: Dosis;
+    font-size: 16px;
+    font-style: bold;
+    text-transform: uppercase;
+    color: #330033;
+}
+.small {
+    text-transform: initial;
+}
+
+.imagesFooter {
+    width: 1798px;
+    height: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.imagesFlag {
+    width: 710px;
+    height: 11px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lineFooter {
+    width: 1798px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+.lineFooterGray {
+    width: 827px;
+    height: 1px;
+    background-color: #cccccc;
+}
+
+.textFooter {
+    height: 100px;
+    text-align: center;
+    font-family: Dosis;
+    font-size: 12px;
+    font-style: bold;
+    color: #330033;
+}
+
+@media (max-width: 1270px) {
+    .container {
+        width: 1270px;
+        height: auto;
+  }
+}
+
+@media (max-width: 1270px) {
+    .boxMain {
+        width: 1270px;
+        height: auto;
+  }
+}
+@media (max-width: 1270px) {
+    .boxMainTwo {
+        width: 1270px;
+        height: auto;
+  }
+}
+
+@media (max-width: 1270px) {
+    .center {
+        width: 1270px;
+        height: auto;
+  }
+}
+
+@media (max-width: 1270px) {
+    .bigBlock {
+        width: 1270px;
+        height: auto;
+  }
+}
+
+@media (max-width: 1270px) {
+    .headerFooter {
+        width: 1270px;
+        height: auto;
+  }
+}
+
+@media (max-width: 1270px) {
+    .navFooter {
+        width: 1270px;
+        height: auto;
+  }
+}
+
+@media (max-width: 1270px) {
+    .imagesFooter {
+        width: 1270px;
+        height: auto;
+  }
+}
+
+@media (max-width: 400px) {
+    .chat {
+        width: 400px;
+        height: auto;
+  }
+}
